@@ -1,6 +1,6 @@
-//
-// Created by Leadwoods and Viren Vadhvana on 2022-10-31.
-//
+/*
+* Created by Leadwoods and Viren Vadhvana on 2022-10-31.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,25 +14,24 @@ int main() {
      ext2)  Convert the code to take user input. expectation: single integers one after the other
      ext3)  Only allow the user to enter up to 25 characters
 
-
-            where you see $---$ there is an element that must be filled in to complete the line of code
+     where you see $---$ there is an element that must be filled in to complete the line of code
      */
 
-
     int arr2[10] = {7, 14, 1, 6, 8, 3, 66, 3, 9, 11};
-    int* arr2PTr = $---$;
-    int intCount = $---$, i;
+    int* arr2PTR;
+    int intCount = 10, i;
+
+    arr2PTR = $---$;
 
     printf("The array forward is: ");
     for(i = 0; i < $---$ ; i++){
-        printf("%d ", *($---$ ++));
+        printf("%d ", *($---$++));
     }
 
     printf("\nAnd in reverse: ");
     for(i = intCount; i >0 ; i--){
-        printf( "$---$ ", *($---$));
+        printf( "$---$", *(--arr2PTR));
     }
-
 
     return 0;
 }

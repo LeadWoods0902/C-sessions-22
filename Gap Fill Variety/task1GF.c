@@ -1,6 +1,6 @@
-//
-// Created by Leadwoods and Viren Vadhvana on 2022-10-31.
-//
+/*
+* Created by Leadwoods and Viren Vadhvana on 2022-10-31.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,16 +18,15 @@ int main() {
     */
 
     int var1 = 5;
+    int* $---$;
 
     printf("The value of var1 is %$---$\n", var1);
 
     printf("The address of var1 is %p\n", &$---$);
 
-    int* $---$;
+    var2 = &$---$;
 
     printf("The address of the pointer variable *var2 is $---$\n", var2);
-
-    var2 = &$---$;
 
     printf("The value of var2 is $---$\n", *$---$);
 
