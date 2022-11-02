@@ -42,7 +42,7 @@ int main() {
 
     printf("The array forward is: ");
     for(i = 0; i < intCount ; i++){
-        printf("%d ", *arr2PTr++);
+        printf("%d ", *(arr2PTr++));
     }
 
     printf("\nAnd in reverse: ");
