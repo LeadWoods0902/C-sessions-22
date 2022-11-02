@@ -1,6 +1,6 @@
-//
-// Created by Leadwoods and Viren Vadhvana on 2022-10-31.
-//
+/*
+* Created by Leadwoods and Viren Vadhvana on 2022-10-31.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,13 +18,13 @@ int main(){
 
 
     char* arr1 = "Hello";
-    //char arr1[128];
+    /*char arr1[128];*/
 
     char* arr1PTR = arr1;
     int arr1Length = 0;
 
-//    printf("Input a string:");
-//    scanf("%s", arr1);
+/*    printf("Input a string:");
+    scanf("%s", arr1);*/
 
     while(*arr1PTR != '\0'){
         arr1Length++;
