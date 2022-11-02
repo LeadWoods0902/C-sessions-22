@@ -14,6 +14,14 @@ The three tasks can can be found in the root folder of the repository.
 
 Solutions are available in the solutions folder
 
+## Solutions
+
+Solutions have been provided, it is not in your interest to look at these before attempting the exercises but they are there if you need help.
+
+
+
+
+
 ### Getting More Practice
 
 The best thing you can do to improve your skills in C (and programming in
