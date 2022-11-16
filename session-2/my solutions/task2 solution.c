@@ -22,5 +22,7 @@ int main() {
   strcpy(h2.firstName, "Cerys");
   strcpy(h2.lastName, "Ormrod");
 
-  printf("%s is older", h1.age > h2.age ? h1.firstName : h2.firstName);
+  printf("%s is older\n", h1.age > h2.age ? h1.firstName : h2.firstName);
+  
+  return 0;
 }
