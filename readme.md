@@ -1,6 +1,6 @@
 # Mentoring Worksheet - C
 
-Welcome to the first C mentor session!
+Welcome to C mentoring sessions repository!
 
 To get a copy of this repo (so you can code your own solutions), clone this repo
 by running the following command:
@@ -10,16 +10,10 @@ git clone https://github.com/LeadWoods0902/C-Mentor-Session-22-11-02.git
 
 ```
 
-The three tasks can can be found in the root folder of the repository.
-
-Solutions are available in the solutions folder
 
 ## Solutions
 
 Solutions have been provided, it is not in your interest to look at these before attempting the exercises but they are there if you need help.
-
-
-
 
 
 ### Getting More Practice
