@@ -22,9 +22,10 @@ int main()
 
     lengthArr1 = genLength(); /*    generates a random length for the array */
 
+
+
     /*  Task 1 | assign enough memory to arr1 to handle the random length stored in lengthArr1  */
 
-    arr1 = malloc(sizeof (int) * lengthArr1);
 
     /*  End of Task 1   */
 
@@ -34,32 +35,7 @@ int main()
     *   suggestion: Print out every number as you test it
     */
 
-    submitVal = minInt;
-    for(i = 0; i < lengthArr1 ; i++){
-        printf("%d: %d\n", i, arr1[i]);
-        if(arr1[i] > submitVal)
-           submitVal = arr1[i];
-    }
     /*  End of Task 2   */
-
-    /*
-    *   Alternative solution for task 2
-    *   iterates through the array and swaps the first element with any element found larger than the current first element
-    *   Uncomment the code to see it in action
-    */
-
-    /*
-    for(i=0;i<lengthArr1;i++)
-    {
-        if(*arr1<*(arr1+i)) {
-            temp = *arr1;
-            *arr1 = *(arr1 + i);
-            *(arr1+i) = temp;
-        }   
-        printf("%d (%d)\n",arr1[i], *arr1);
-    }
-    verifyLargestNumber(arr1, lengtharr1, *arr1)
-    */
 
     verifyLargestNumber(arr1, lengthArr1, submitVal);
 
