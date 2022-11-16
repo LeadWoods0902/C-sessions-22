@@ -1,6 +1,6 @@
-# Mentoring Worksheet - C
+<h1> Mentoring Worksheet - C </h1>
 
-Welcome to C mentoring sessions repository!
+<h4> Welcome to C mentoring sessions repository! </h4>
 
 To get a copy of this repo (so you can code your own solutions), clone this repo
 by running the following command:
@@ -11,12 +11,19 @@ git clone https://github.com/LeadWoods0902/C-Mentor-Session-22-11-02.git
 ```
 
 
-## Solutions
+<h3> Task Versions </h3>
+
+There are three versions of each task:
+- Gap Fill variety : Most of the code is given to you and you must fill in the gaps to make the code run
+- Hinted : Variables are provided
+- Pure : Nothing is provided outside of the task definition
+
+<h3> Solutions </h3>
 
 Solutions have been provided, it is not in your interest to look at these before attempting the exercises but they are there if you need help.
 
 
-### Getting More Practice
+<h3> Getting More Practice </h3>
 
 The best thing you can do to improve your skills in C (and programming in
 general) is practice. These are some useful websites for you to try out if you
